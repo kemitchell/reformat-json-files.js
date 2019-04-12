@@ -21,5 +21,5 @@ process.argv.slice(2).forEach(function (file) {
     process.exit(1)
   }
 
-  fs.writeFileSync(file, JSON.stringify(parsed, null, 2))
+  fs.writeFileSync(file, JSON.stringify(parsed, null, 2) + '\n')
 })
