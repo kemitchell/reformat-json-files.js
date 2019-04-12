@@ -1,6 +1,6 @@
 {
   "name": "reformat-json-files",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "reformat JSON files in-place with JSON.stringify(data, null, 2)",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "repository": "kemitchell/reformat-json-files.js",
